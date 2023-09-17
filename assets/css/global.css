@@ -2,18 +2,26 @@
     font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
 }
-
 body {
     background-color: #f6f8fc;
 }
-
 .content {
     width: 100vw;
     height: 100vh;
     padding: 1rem;
     background-color: #fff;
 }
-
+button {
+    cursor: pointer;
+}
+.divButton{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: end; */
+    padding: 1rem;
+    width: 100%;
+    height: 5rem;
+}
 @media screen and (min-width: 992px) {
     .content {
         max-width: 992px;
